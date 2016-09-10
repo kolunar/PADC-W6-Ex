@@ -40,6 +40,7 @@ public class RegisterFragment extends Fragment implements DatePickerDialog.OnDat
         final EditText etRegEmail = (EditText) view.findViewById(R.id.etRegPassword);
         etDateOfBirth = (EditText) view.findViewById(R.id.etDateOfBirth);
 
+        etDateOfBirth.setText("1999-01-01");
         etDateOfBirth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
