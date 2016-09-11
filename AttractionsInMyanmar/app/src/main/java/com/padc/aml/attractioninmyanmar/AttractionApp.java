@@ -19,4 +19,8 @@ public class AttractionApp extends Application {
     public static Context getContext() {
         return context;
     }
+	
+	private void doSomething() {
+		// TODO::
+	}
 }
